@@ -1,0 +1,223 @@
+/* custom font family */
+@import url("https://fonts.cdnfonts.com/css/sf-pro-display?styles=98774,98777,98776,98772,98773,98775,98770,98771,98769");
+/* custom font */
+/* SF Pro */
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 400;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
+}
+/*
+segoe UI font 
+ */
+
+@font-face {
+  font-family: SegoeUI-100;
+  src: local("Segoe UI Light"),
+    url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/light/latest.woff2)
+      format("woff2"),
+    url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/light/latest.woff)
+      format("woff"),
+    url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/light/latest.ttf)
+      format("truetype");
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: SegoeUI-200;
+  src: local("Segoe UI Semilight"),
+    url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/semilight/latest.woff2)
+      format("woff2"),
+    url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/semilight/latest.woff)
+      format("woff"),
+    url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/semilight/latest.ttf)
+      format("truetype");
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: SegoeUI-400;
+  src: local("Segoe UI"),
+    url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/normal/latest.woff2)
+      format("woff2"),
+    url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/normal/latest.woff)
+      format("woff"),
+    url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/normal/latest.ttf)
+      format("truetype");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: SegoeUI-600;
+  src: local("Segoe UI Bold"),
+    url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/bold/latest.woff2)
+      format("woff2"),
+    url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/bold/latest.woff)
+      format("woff"),
+    url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/bold/latest.ttf)
+      format("truetype");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: SegoeUI-700;
+  src: local("Segoe UI Semibold"),
+    url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/semibold/latest.woff2)
+      format("woff2"),
+    url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/semibold/latest.woff)
+      format("woff"),
+    url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/semibold/latest.ttf)
+      format("truetype");
+  font-weight: 700;
+}
+/* 
+background-image: radial-gradient(73% 147%, #EADFDF 59%, #ECE2DF 100%), radial-gradient(91% 146%, rgba(255,255,255,0.50) 47%, rgba(0,0,0,0.50) 100%);
+ background-blend-mode: screen;
+*/
+:root {
+  --primary-font-ii: "San Francisco";
+  --primary-font-lite-ii: "SegoeUI-200";
+
+  --primary-font-color: #ffffff;
+  --secondery-font-color: #000000;
+  --list-item-font-color: #424242;
+
+  --primary-navbar-bg: #ffffffd1;
+  --primary-button-bg: rgb(79, 190, 234);
+  --primary-button-bg-hover: #4bb1da;
+  --secondery-bg: #f4f4f4;
+}
+/* preset */
+*,
+::after,
+::before {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+/* common css */
+.nav-link {
+  color: var(--list-item-font-color);
+  border: 1px solid transparent;
+  font-family: var(--primary-font-lite-ii);
+}
+.nav-link:hover {
+  border-bottom: 1px solid black;
+}
+.btn-main {
+  background: var(--primary-button-bg);
+  color: var(--primary-font-color);
+}
+.btn-main:hover {
+  background: var(--primary-button-bg-hover);
+}
+.btn-second:hover {
+  background: var(--primary-button-bg);
+  color: var(--primary-font-color);
+}
+
+/* sliks slider */
+html::-webkit-scrollbar {
+  display: none;
+}
+
+.slick-prev {
+  top: 93%;
+  left: 75%;
+  width: 50px;
+  height: 50px;
+}
+.slick-prev:before {
+  content: url("../assets/icon/left.svg");
+  font-size: 50px;
+  color: #282626;
+}
+
+.slick-next {
+  top: 93%;
+  right: 10%;
+  display: block;
+  width: 50px;
+  height: 50px;
+}
+.slick-next:before {
+  font-size: 50px;
+  color: #282626;
+  content: url("../assets/icon/right.svg");
+}
+
+/* common style end */
+/* body */
+body {
+  font-family: var(--primary-font-ii);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #000;
+  /* second choice */
+  background-image: radial-gradient(73% 147%, #eadfdf 59%, #ece2df 100%),
+    radial-gradient(91% 146%, rgb(255, 255, 255) 47%, rgba(0, 0, 0, 0.5) 100%);
+  background-blend-mode: screen;
+  /* second choice */
+  /* background-image: radial-gradient(73% 147%, #d5e0e4e7 59%, #d8d9d94b 100%),
+    radial-gradient(
+      91% 146%,
+      rgb(255, 255, 255) 47%,
+      rgba(0, 0, 0, 0.5) 100%
+    ); */
+  /* background-blend-mode: screen; */
+}
+/* header style start */
+header {
+  background: var(--primary-navbar-bg);
+  backdrop-filter: blur(5px);
+}
+/* header style end */
+
+/* hero section */
+#hero-section {
+  height: 800px;
+  display: flex;
+  align-items: center;
+}
+.banner {
+  background: url("../assets/banner.jpg") no-repeat center;
+  background-size: cover;
+  box-shadow: 700px 0px 400px 50px rgb(255, 255, 255) inset;
+}
+/* hero-section end */
+
+/* solution section */
+#solution {
+  height: 800px;
+  padding-top: 60px;
+  background: url("../assets/background_svg/background_line.svg") no-repeat
+    center;
+  background-size: contain;
+}
+#solution .solution-wrapper {
+  background-color: var(--secondery-bg);
+  text-wrap: balance;
+}
+#solution .solution-wrapper .solution-banner .solution-showcase img {
+  height: 550px;
+  object-fit: cover;
+}
+/* solution section end */
+
+/* industries style start */
+#industries {
+  background: url("../assets/background_svg/background_line_vr.svg") no-repeat
+    center;
+  background-size: contain;
+  padding-top: 60px;
+}
+#industries .industries-item:hover img {
+  scale: 1.1;
+}
+#industries .industries-item .text {
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 0px 170px -50px rgba(178, 178, 178, 0.861);
+  -webkit-box-shadow: 0px 0px 170px -50px rgb(178, 178, 178, 0.861);
+  -moz-box-shadow: 0px 0px 170px -50px rgb(178, 178, 178, 0.861);
+}
+/* industries style end */
