@@ -1,111 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <!-- Requards Meta tags -->
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!--lick-theme.css if you want default styling -->
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
-    />
-    <!-- slick-theme.css if you want default styling -->
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"
-    />
+@extends('master.secondNav')
+@section('content')
 
-    <!-- Remote css cdn -->
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
-
-    <!-- local style -->
-    <link rel="stylesheet" href="../style/carrers_page.css" />
-    <link rel="stylesheet" href="../style/mian.css" />
-
-    <!--paid font-awesome link  -->
-    <link
-      rel="stylesheet"
-      href="https://site-assets.fontawesome.com/releases/v6.2.1/css/all.css"
-    />
-
-    <!-- favicon -->
-    <link rel="shortcut icon" href="./assets/favicon.jpg" type="image/x-icon" />
-    <!-- website title -->
-
-    <title>Careers - Innova Infosys</title>
-  </head>
-  <body>
-    <!-- navigation start-->
-    <header id="nav" class="border-b fixed top-0 w-screen z-50">
-      <div
-        class="mx-auto flex justify-between h-12 max-w-screen-xl items-center gap-8"
-      >
-        <a class="text-blue-400 transition" href="/"> INNOVA INFOSYS </a>
-
-        <div class="items-center md:justify-between">
-          <nav aria-label="Global" class="hidden md:block">
-            <ul class="flex items-center gap-6 text-sm">
-              <li>
-                <a class="nav-link transition py-1" href="../index.html">
-                  Home
-                </a>
-              </li>
-
-              <li>
-                <a class="nav-link transition py-1" href="#solution">
-                  Solution
-                </a>
-              </li>
-
-              <li>
-                <a class="nav-link transition py-1" href="#industries">
-                  industries
-                </a>
-              </li>
-
-              <li>
-                <a class="nav-link transition py-1" href="/"> Services </a>
-              </li>
-
-              <li>
-                <a class="nav-link transition py-1" href="/"> Projects </a>
-              </li>
-
-              <li>
-                <a class="nav-link transition py-1" href="./pages/carrers.html">
-                  Careers
-                </a>
-              </li>
-            </ul>
-          </nav>
-          <button
-            class="block rounded p-2.5 text-gray-600 transition md:hidden"
-          >
-            <space-y-5n class="sr-only">Toggle menu</space-y-5n>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              class="h-5 w-5"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-              stroke-width="2"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                d="M4 6h16M4 12h16M4 18h16"
-              />
-            </svg>
-          </button>
-        </div>
-      </div>
-    </header>
-    <!-- navigation end -->
-    <!-- main Section start -->
-    <main>
+<main>
       <!-- carrer banner start -->
       <section id="carrer_banner-section">
         <div class="max-w-screen-xl mx-auto">
@@ -128,26 +24,26 @@
             <div class="banner-showcase">
               <div class="top flex justify-end h-1/3">
                 <div class="office-img w-1/3">
-                  <img src="../assets/office/office1.jpg" alt="" />
+                  <img src="{{asset('/office/office1.jpg')}}" alt="" />
                 </div>
               </div>
               <div class="center flex justify-end h-1/3">
                 <div class="office-img w-1/3">
-                  <img src="../assets/office/office2.jpg" alt="" />
+                  <img src="{{asset('/office/office2.jpg')}}" alt="" />
                 </div>
                 <div class="office-img w-1/3">
-                  <img src="../assets/office/office3.jpg" alt="" />
+                  <img src="{{asset('/office/office3.jpg')}}" alt="" />
                 </div>
               </div>
               <div class="buttom flex h-1/3">
                 <div class="office-img w-1/3">
-                  <img src="../assets/office/office4.jpg" alt="" />
+                  <img src="{{asset('/office/office4.jpg')}}" alt="" />
                 </div>
                 <div class="office-img w-1/3">
-                  <img src="../assets/office/office5.jpg" alt="" />
+                  <img src="{{asset('/office/office5.jpg')}}" alt="" />
                 </div>
                 <div class="office-img w-1/3">
-                  <img src="../assets/office/office6.jpg" alt="" />
+                  <img src="{{asset('/office/office6.jpg')}}" alt="" />
                 </div>
               </div>
             </div>
@@ -495,6 +391,7 @@
       </div>
       <!-- Current Job Openings end-->
     </main>
+    @endsection
     <!-- all script -->
 
     <!-- jquary cdn -->
@@ -502,15 +399,6 @@
     <!-- 
         mixti up cdn
      -->
-    <script src="../js/mixitup.js"></script>
-    <script>
-      var mixer = mixitup(".job-post", {
-        animation: {
-          enable: true,
-          effects: "fade translateY(-10px)",
-          duration: 300,
-        },
-      });
-    </script>
+
   </body>
 </html>

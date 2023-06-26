@@ -15,4 +15,20 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('welcome');
-});
+})->name('HOME');
+
+Route::get('/careers', function () {
+    return view('careers');
+})->name('CAREERS');
+
+Route::get('/contact', function () {
+    return view('contact');
+})->name('CONTACT');
+
+Route::get('/industries', function () {
+    return view('industries-discretion');
+})->name('DISCRIPTION');
+
+Route::get('/organization', function () {
+    return view('organization');
+})->name('ORGANIZATION');
