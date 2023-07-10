@@ -104,7 +104,7 @@ background-image: radial-gradient(73% 147%, #EADFDF 59%, #ECE2DF 100%), radial-g
     border-bottom: 1px solid black;
 }
 .btn-main {
-    background: var(--primary-button-bg);
+    background-color: var(--primary-button-bg);
     color: var(--primary-font-color);
 }
 .btn-main:hover {
@@ -114,7 +114,9 @@ background-image: radial-gradient(73% 147%, #EADFDF 59%, #ECE2DF 100%), radial-g
     background: var(--primary-button-bg);
     color: var(--primary-font-color);
 }
-
+.error {
+    color: red;
+}
 /* sliks slider */
 html::-webkit-scrollbar {
     display: none;
@@ -247,4 +249,37 @@ header {
 #contact {
     background: url("../background_svg/background_line.svg") no-repeat center;
     background-size: contain;
+}
+
+/* about */
+#about-us {
+    width: 1280px;
+    margin-inline: auto;
+    padding-top: 100px;
+}
+/* privacy-policy */
+#privacy-policy {
+    width: 1280px;
+    margin-inline: auto;
+    padding-top: 100px;
+}
+
+/* media */
+@media (max-width: 768px) {
+    #hero-section {
+        height: 500px;
+        display: flex;
+        align-items: center;
+    }
+    .banner {
+        background: url("../banner.jpg") no-repeat center;
+        background-size: cover;
+        box-shadow: 700px 0px 400px 50px rgba(255, 255, 255, 0.911) inset;
+    }
+    .slick-next:before {
+        display: none;
+    }
+    .slick-prev:before {
+        display: none;
+    }
 }

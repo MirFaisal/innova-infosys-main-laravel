@@ -2,36 +2,41 @@
 common css 
  */
 .btn-second:hover {
-  background: var(--primary-button-bg);
-  color: var(--primary-font-color);
+    background: var(--primary-button-bg);
+    color: var(--primary-font-color);
 }
 /* carrers banner grid collage */
 #carrer_banner-section {
-  margin-top: 60px;
+    margin-top: 60px;
 }
 #carrer_banner-section .main-banner {
-  background-color: var(--secondery-bg);
+    background-color: var(--secondery-bg);
 }
 #carrer_banner-section .main-banner .banner-showcase .office-img img {
-  height: 200px;
-  width: 100%;
+    height: 200px;
+    width: 100%;
 }
 /* why innova infosys start */
 #why-innova {
-  background: url("../assets/background_svg/carrer-line.svg") no-repeat right;
+    background: url("../assets/background_svg/carrer-line.svg") no-repeat right;
 }
 /* why innova infosys end */
 #carrer_jon_opening {
-  height: 700px;
-  margin-top: 60px;
+    height: 700px;
+    margin-top: 60px;
 }
 
 #carrer_jon_opening .wrapper {
-  height: 600px;
-  overflow-y: scroll;
-  background-color: var(--secondery-bg);
+    height: 600px;
+    overflow-y: scroll;
+    background-color: var(--secondery-bg);
 }
 #carrer_jon_opening .wrapper::-webkit-scrollbar {
-  display: none;
+    display: none;
 }
 
+@media (max-width: 768px) {
+    #contact {
+        margin-top: 130px;
+    }
+}

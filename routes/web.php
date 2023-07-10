@@ -1,5 +1,8 @@
 <?php
 
+use App\Http\Controllers\CarrerController;
+use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\UserMessageController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -15,20 +18,30 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('welcome');
-})->name('HOME');
+});
 
-Route::get('/careers', function () {
-    return view('careers');
-})->name('CAREERS');
+Route::get('/about', function () {
+    return view('about');
+})->name('ABOUT');
 
-Route::get('/contact', function () {
-    return view('contact');
-})->name('CONTACT');
+Route::get('/privacy-policy', function () {
+    return view('privacy-policy');
+})->name('PRIVACY');
 
-Route::get('/industries', function () {
-    return view('industries-discretion');
-})->name('DISCRIPTION');
+Route::get('/dashboard', [UserMessageController::class, 'messages'])->middleware(['auth', 'verified'])->name('dashboard');
 
-Route::get('/organization', function () {
-    return view('organization');
-})->name('ORGANIZATION');
+Route::get('/careers', [CarrerController::class, 'index'])->name('CAREERS');
+
+Route::get('/contact', [UserMessageController::class, 'index'])->name('CONTACT');
+
+
+Route::post('/contact/send', [UserMessageController::class, 'store'])->name('SEND-MESSAGE');
+
+
+Route::middleware('auth')->group(function () {
+    Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
+    Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
+    Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
+});
+
+require __DIR__ . '/auth.php';
