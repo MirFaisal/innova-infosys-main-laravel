@@ -72,6 +72,7 @@
                         <ul
                             class="flex flex-col md:flex-row items-center gap-6 text-md md:text-sm"
                         >
+                        
                             <li>
                                 <a
                                     class="nav-link transition py-1"

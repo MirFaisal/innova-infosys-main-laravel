@@ -319,7 +319,7 @@
                 </div>
 
                 <div
-                    class="industries-item md:h-[340px] md:flex justify-end items-center md:relative"
+                    class="industries-item md:h-[340px] md:flex justify-start items-center relative"
                 >
                     <div
                         class="text md:w-[900px] md:h-[260px] p-8 flex flex-col space-y-5 md:absolute right-0 z-40"
