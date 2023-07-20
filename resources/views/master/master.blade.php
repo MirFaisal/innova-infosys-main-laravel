@@ -873,7 +873,7 @@
                                     />
 
                                     <button
-                                        class="mt-1 w-full btn-main px-6 py-3 text-sm font-bold uppercase tracking-wide text-white transition-none hover:bg-[#4fbeea] sm:mt-0 sm:w-auto sm:shrink-0"
+                                        class="mt-1 w-full btn-main px-6 py-3 text-sm font-bold uppercase tracking-wide text-white transition-none sm:mt-0 sm:w-auto sm:shrink-0"
                                     >
                                         Send
                                     </button>
