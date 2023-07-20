@@ -83,8 +83,8 @@ background-image: radial-gradient(73% 147%, #EADFDF 59%, #ECE2DF 100%), radial-g
     --list-item-font-color: #424242;
 
     --primary-navbar-bg: #ffffffd1;
-    --primary-button-bg: #4fbeea;
-    --primary-button-bg-hover: #4bb1da;
+    --primary-button-bg: #db4437;
+    --primary-button-bg-hover: #e45346;
     --secondery-bg: #f4f4f4;
 }
 /* preset */

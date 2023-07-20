@@ -53,7 +53,7 @@
     </head>
     <body class="relative">
         <!-- navigation start-->
-        <header id="nav" class="border-b fixed top-0 w-screen z-50 hidden">
+        <!-- <header id="nav" class="border-b fixed top-0 w-screen z-50 hidden">
             <div
                 class="mx-auto flex justify-between h-14 max-w-screen-xl items-center gap-8 px-2 md:px-0"
             >
@@ -130,7 +130,7 @@
                     </button>
                 </div>
             </div>
-        </header>
+        </header> -->
         <!--  -->
         <!--  -->
         <nav class="border-gray-200 fixed top-0 w-screen z-50 dark:bg-gray-900">
@@ -873,7 +873,7 @@
                                     />
 
                                     <button
-                                        class="mt-1 w-full bg-[#4fbeea] px-6 py-3 text-sm font-bold uppercase tracking-wide text-white transition-none hover:bg-[#4fbeea] sm:mt-0 sm:w-auto sm:shrink-0"
+                                        class="mt-1 w-full btn-main px-6 py-3 text-sm font-bold uppercase tracking-wide text-white transition-none hover:bg-[#4fbeea] sm:mt-0 sm:w-auto sm:shrink-0"
                                     >
                                         Send
                                     </button>
