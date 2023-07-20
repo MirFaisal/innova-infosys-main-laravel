@@ -839,7 +839,7 @@
                     >
                         <div class="mt-8 space-y-4 lg:mt-0">
                             <span
-                                class="hidden h-1 w-10 rounded bg-[#4fbeea] lg:block"
+                                class="hidden h-1 w-10 rounded bg-red-600 lg:block"
                             ></span>
 
                             <div>
