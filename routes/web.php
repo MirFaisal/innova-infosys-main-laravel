@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\CarrerController;
+use App\Http\Controllers\EmployeeController;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\UserMessageController;
 use Illuminate\Support\Facades\Route;
@@ -20,6 +21,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('hq/employee/profile/{public_id}', [EmployeeController::class, 'publicProfile'])->name('employee.public');
+
 Route::get('/about', function () {
     return view('about');
 })->name('ABOUT');
@@ -29,6 +32,13 @@ Route::get('/privacy-policy', function () {
 })->name('PRIVACY');
 
 Route::get('/dashboard', [UserMessageController::class, 'messages'])->middleware(['auth', 'verified'])->name('dashboard');
+
+Route::get('/hq/employee/show', [EmployeeController::class, 'index'])->middleware(['auth', 'verified'])->name('employee.show');
+Route::get('/hq/employee/create', [EmployeeController::class, 'create'])->middleware(['auth', 'verified'])->name('employee.create');
+Route::post('/hq/employee/store', [EmployeeController::class, 'store'])->middleware(['auth', 'verified'])->name('employee.store');
+Route::get('/hq/employee/update/create/{public_id}', [EmployeeController::class, 'updateIndex'])->middleware(['auth', 'verified'])->name('update.employee.create');
+
+Route::post('/hq/employee/update/store/{public_id}', [EmployeeController::class, 'update'])->middleware(['auth', 'verified'])->name('update.employee.store');
 
 Route::get('/careers', [CarrerController::class, 'index'])->name('CAREERS');
 

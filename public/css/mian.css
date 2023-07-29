@@ -95,6 +95,7 @@ background-image: radial-gradient(73% 147%, #EADFDF 59%, #ECE2DF 100%), radial-g
     scroll-behavior: smooth;
 }
 /* common css */
+
 .nav-link {
     color: var(--list-item-font-color);
     border: 1px solid transparent;
