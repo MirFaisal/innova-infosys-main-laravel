@@ -123,7 +123,7 @@ class EmployeeController extends Controller
         $employee = Employee::where('erbn', $erbn)->first();
         // dd($employee);
         if ($employee == null) {
-            return view('errors.custom-error');
+            return view('errors.custom-error', compact('erbn'));
         }
         return view('employee-profile', compact('employee'));
     }
