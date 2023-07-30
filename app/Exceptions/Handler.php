@@ -27,4 +27,13 @@ class Handler extends ExceptionHandler
             //
         });
     }
+
+    //     public function render($request, Throwable $exception)
+//     {
+//         if ($exception instanceof ModelNotFoundException || $exception instanceof NotFoundHttpException) {
+//             return response()->view('errors.custom-error', [], 500);
+//         }
+
+    //         return parent::render($request, $exception);
+//     }
 }

@@ -84,15 +84,15 @@ class EmployeeController extends Controller
         $employee = Employee::where('public_id', $public_id)->first();
 
         $imageName = '';
-        $oldImage = 'thumbnails/image' . $employee->photo;
+        $oldImage = 'employee/images' . $employee->photo;
         if ($thumbnail = $request->file('photo')) {
             if (file_exists($oldImage)) {
                 File::delete($oldImage);
             }
             $imageName = time() . '_' . uniqid() . '.' . $thumbnail->getClientOriginalExtension();
-            $thumbnail->move('thumbnails/image', $imageName);
+            $thumbnail->move('employee/images', $imageName);
         } else {
-            $imageName = $employee->thumbnail;
+            $imageName = $employee->photo;
         }
 
         // dd($request->all());
@@ -118,10 +118,13 @@ class EmployeeController extends Controller
 
         return redirect()->back();
     }
-    function publicProfile($public_id)
+    function publicProfile($erbn)
     {
-        $employee = Employee::where('public_id', $public_id)->first();
+        $employee = Employee::where('erbn', $erbn)->first();
         // dd($employee);
+        if ($employee == null) {
+            return view('errors.custom-error');
+        }
         return view('employee-profile', compact('employee'));
     }
 }
