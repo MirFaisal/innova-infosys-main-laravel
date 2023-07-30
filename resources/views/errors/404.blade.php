@@ -1,10 +1,4 @@
-<!-- @extends('errors::minimal')
 
-@section('title', __('Not Found'))
-@section('code', '404')
-@section('message', __('Not Found')) -->
-
-<!-- component -->
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -38,6 +32,9 @@
             <div
                 class="bg-white border border-gray-200 flex flex-col items-center justify-center px-4 md:px-8 lg:px-24 py-8 rounded-lg shadow-2xl"
             >
+            <div>
+                <img class="w-40 mb-20" src="{{asset('logo/logo.png')}}" alt="">
+            </div>
                 <p
                     class="text-6xl md:text-7xl lg:text-9xl font-bold tracking-wider text-gray-300"
                 >
