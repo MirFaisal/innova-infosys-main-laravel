@@ -58,7 +58,7 @@
                         <div
                             class="flex justify-center items-baseline mx-1 mb-4 px-20"
                         >
-                            @if($employee->status == 'In Servics')
+                            @if($employee->status == 'In Service')
                             <div
                                 class="h-3 w-3 rounded-full bg-green-500"
                             ></div>
