@@ -118,13 +118,14 @@ class EmployeeController extends Controller
 
         return redirect()->back();
     }
-    function publicProfile($erbn)
+    function publicProfile(Request $request,$erbn)
     {
         $employee = Employee::where('erbn', $erbn)->first();
         // dd($employee);
         if ($employee == null) {
             return view('errors.custom-error', compact('erbn'));
         }
-        return view('employee-profile', compact('employee'));
+        $host = $request->getHost();
+        return view('employee-profile', compact(['employee', 'host']));
     }
 }
