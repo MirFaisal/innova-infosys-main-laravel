@@ -258,33 +258,34 @@
                         </div>
                         @endif
                     </div>
-
-                    <!-- Innova infosys authentication -->
-                    <div>
-                        @if($host == 'innovainfosys.com')
-                        <div class="leading-1.5">
-                            Information is verified by the Authority of Innova
-                            Infosys Limited since the domain you are visiting is
-                            <a
-                                class="text-blue-600 font-bold"
-                                href="https://innovainfosys.com"
-                                >innova Infosys</a
-                            >
-                            <p class="px-20">
-                                We, hereby assure you that no forgery or cross
-                                scripting has been occured while loading this
-                                webpage. Therefore, you can accept the provided
-                                information as valid. <br />
-                                <span
-                                    class="inline-block mt-3 border-b border-black"
-                                    >[Amar Sign]</span
-                                >
-                                <br />CEO <br />Innova Infosys Limited
-                            </p>
-                        </div>
-                        @endif
-                    </div>
                 </div>
+            </div>
+        </div>
+        <!-- Innova infosys authentication -->
+        <div class="w-80 md:w-96 lg:w-2/3 mx-auto flex justify-center px-6">
+            <div class="block max-w-md sm:max-w-sm py-6 bg-white">
+                <p>
+                    Information is verified by the Authority of Innova Infosys
+                    Limited since the domain you are visiting is
+                </p>
+                <a
+                    class="text-blue-600 font-bold"
+                    href="https://innovainfosys.com"
+                    >www.innovainfosys.com</a
+                >
+                <p class="font-normal">
+                    We, hereby assure you that no forgery or cross scripting has
+                    been occured while loading this webpage. Therefore, you can
+                    accept the provided information as valid. <br />
+                    <span class="inline-block mt-3 border-b border-black"
+                        ><img
+                            class="w-20"
+                            src="{{ asset('signature/CEO.png') }}"
+                            alt=""
+                    /></span>
+                    <br />CEO <br />
+                    <span class="font-bold">Innova Infosys Limited</span>
+                </p>
             </div>
         </div>
     </body>
