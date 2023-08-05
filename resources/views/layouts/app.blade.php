@@ -20,6 +20,9 @@
             integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
             crossorigin="anonymous"
         />
+        <link href="{{ asset('css/app.css') }}" rel="stylesheet" />
+
+        <script src="{{ asset('js/app.js') }}"></script>
 
         <!-- Scripts -->
         @vite(['resources/css/app.css', 'resources/js/app.js'])

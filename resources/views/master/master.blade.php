@@ -20,8 +20,8 @@
         />
 
         <!-- Remote css cdn -->
-        <script src="https://cdn.tailwindcss.com"></script>
         <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+        <script src="https://cdn.tailwindcss.com"></script>
 
         <!-- local style -->
         <link rel="stylesheet" href="{{ asset('/css/contact_page.css') }}" />
