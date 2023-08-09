@@ -283,6 +283,7 @@
             </h3>
             <div class="industries-wrapper space-y-24">
                 <div
+                    id="finance"
                     class="industries-item md:h-[340px] md:flex justify-end items-center md:relative"
                 >
                     <div
@@ -319,6 +320,7 @@
                 </div>
 
                 <div
+                    id="hospital"
                     class="industries-item md:h-[340px] md:flex justify-start items-center relative"
                 >
                     <div
@@ -359,6 +361,7 @@
                     class="industries-item md:h-[340px] md:flex justify-end items-center md:relative"
                 >
                     <div
+                        id="e-commerce"
                         class="text md:w-[900px] md:h-[260px] p-8 flex flex-col space-y-5 md:absolute left-0 z-40"
                     >
                         <h3 class="text-3xl">E-commerce and Retail</h3>
@@ -393,6 +396,7 @@
                 </div>
 
                 <div
+                    id="logistics"
                     class="industries-item md:h-[340px] md:flex justify-start items-center relative"
                 >
                     <div
@@ -430,6 +434,7 @@
                 </div>
 
                 <div
+                    id="manufacturing"
                     class="industries-item md:h-[340px] md:flex justify-end items-center relative"
                 >
                     <div

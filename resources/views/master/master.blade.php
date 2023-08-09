@@ -40,7 +40,10 @@
             href="{{ asset('favicon.jpg') }}"
             type="image/x-icon"
         />
-
+        <script
+            src="https://kit.fontawesome.com/deb5ec3c82.js"
+            crossorigin="anonymous"
+        ></script>
         <!-- website title -->
         <title>Innova Infosys</title>
 
@@ -52,87 +55,6 @@
         />
     </head>
     <body class="relative">
-        <!-- navigation start-->
-        <!-- <header id="nav" class="border-b fixed top-0 w-screen z-50 hidden">
-            <div
-                class="mx-auto flex justify-between h-14 max-w-screen-xl items-center gap-8 px-2 md:px-0"
-            >
-                <a class="text-blue-400 transition" href="/">
-                    <img
-                        class="w-32"
-                        src="{{ asset('logo/logo.png') }}"
-                        alt="logo"
-                /></a>
-
-                <div class="items-center h-full md:justify-between">
-                    <nav
-                        aria-label="Global"
-                        class="hidden mobile-menu w-full absolute top-[56px] left-0 bg-white md:bg-transparent md:block md:relative md:m-[-40px] md:me-[-20px]"
-                    >
-                        <ul
-                            class="flex flex-col md:flex-row items-center gap-6 text-md md:text-sm"
-                        >
-                            <li>
-                                <a
-                                    class="nav-link transition py-1"
-                                    href="{{ url('') }}#hero-section"
-                                >
-                                    Home
-                                </a>
-                            </li>
-
-                            <li>
-                                <a
-                                    class="nav-link transition py-1"
-                                    href="{{ url('') }}#solution"
-                                >
-                                    Solution
-                                </a>
-                            </li>
-
-                            <li>
-                                <a
-                                    class="nav-link transition py-1"
-                                    href="{{ url('') }}#industries"
-                                >
-                                    Industries
-                                </a>
-                            </li>
-                            <li class="me-4">
-                                <a
-                                    href="{{ route('CONTACT') }}"
-                                    class="nav-link transition py-1"
-                                >
-                                    Contact
-                                </a>
-                            </li>
-                        </ul>
-                    </nav>
-                    <button
-                        id="nav-button"
-                        class="block rounded p-2.5 text-gray-600 transition md:hidden"
-                    >
-                        <space-y-5n class="sr-only">Toggle menu</space-y-5n>
-                        <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            class="h-5 w-5"
-                            fill="none"
-                            viewBox="0 0 24 24"
-                            stroke="currentColor"
-                            stroke-width="2"
-                        >
-                            <path
-                                stroke-linecap="round"
-                                stroke-linejoin="round"
-                                d="M4 6h16M4 12h16M4 18h16"
-                            />
-                        </svg>
-                    </button>
-                </div>
-            </div>
-        </header> -->
-        <!--  -->
-        <!--  -->
         <nav class="border-gray-200 fixed top-0 w-screen z-50 dark:bg-gray-900">
             <div
                 class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4"
@@ -899,7 +821,7 @@
                                 <ul class="mt-6 space-y-4 text-sm">
                                     <li>
                                         <a
-                                            href="#"
+                                            href="{{ url('') }}#industries"
                                             class="text-gray-700 transition hover:opacity-75"
                                         >
                                             Finance and Banking
@@ -908,7 +830,7 @@
 
                                     <li>
                                         <a
-                                            href="#"
+                                            href="{{ url('') }}#industries"
                                             class="text-gray-700 transition hover:opacity-75"
                                         >
                                             Hospital Management
@@ -917,7 +839,7 @@
 
                                     <li>
                                         <a
-                                            href="#"
+                                            href="{{ url('') }}#industries"
                                             class="text-gray-700 transition hover:opacity-75"
                                         >
                                             E-commerce and Retail
@@ -926,7 +848,7 @@
 
                                     <li>
                                         <a
-                                            href="#"
+                                            href="{{ url('') }}#industries"
                                             class="text-gray-700 transition hover:opacity-75"
                                         >
                                             Logistics
@@ -935,7 +857,7 @@
 
                                     <li>
                                         <a
-                                            href="#"
+                                            href="{{ url('') }}#industries"
                                             class="text-gray-700 transition hover:opacity-75"
                                         >
                                             Manufacturing
@@ -955,7 +877,11 @@
                                             href="https://www.facebook.com/profile.php?id=100094676550997"
                                             class="text-gray-700 transition hover:opacity-75"
                                         >
-                                            Facebook
+                                            <i
+                                                class="fa-brands fa-facebook"
+                                                style="color: #0165e1"
+                                            ></i>
+                                            <span class="ps-1"> Facebook </span>
                                         </a>
                                     </li>
                                     <li>
@@ -963,7 +889,11 @@
                                             href="https://twitter.com/innovainfosys"
                                             class="text-gray-700 transition hover:opacity-75"
                                         >
-                                            Twitter
+                                            <i
+                                                class="fa-brands fa-twitter"
+                                                style="color: #5291ff"
+                                            ></i>
+                                            <span class="ps-1"> Twitter </span>
                                         </a>
                                     </li>
                                     <li>
@@ -971,7 +901,13 @@
                                             href="https://www.instagram.com/innovainfosys/"
                                             class="text-gray-700 transition hover:opacity-75"
                                         >
-                                            Instagram
+                                            <i
+                                                class="fa-brands fa-instagram"
+                                                style="color: #ef4e4e"
+                                            ></i>
+                                            <span class="ps-1">
+                                                Instagram
+                                            </span>
                                         </a>
                                     </li>
                                     <li>
@@ -979,7 +915,11 @@
                                             href="https://www.quora.com/profile/II-256"
                                             class="text-gray-700 transition hover:opacity-75"
                                         >
-                                            Quora
+                                            <i
+                                                class="fa-brands fa-quora"
+                                                style="color: #ff0000"
+                                            ></i>
+                                            <span class="ps-1"> Quora </span>
                                         </a>
                                     </li>
                                 </ul>
@@ -1001,7 +941,7 @@
                                     </li>
                                     <li>
                                         <a
-                                            href="#"
+                                            href="{{ route('CONTACT') }}"
                                             class="text-gray-700 transition hover:opacity-75"
                                         >
                                             Contact
@@ -1022,7 +962,7 @@
                                             href="{{ ROUTE('CAREERS') }}"
                                             class="text-gray-700 transition hover:opacity-75"
                                         >
-                                            career
+                                            Career
                                         </a>
                                     </li>
                                 </ul>
