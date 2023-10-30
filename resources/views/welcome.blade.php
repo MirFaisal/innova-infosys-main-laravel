@@ -577,7 +577,7 @@
                     <img
                         src="{{
                             asset(
-                                'clients/Roundel_of_Bangladesh_–_Army_Aviation.svg.png'
+                                'clients/Roundel_of_Bangladesh_.png'
                             )
                         }}"
                         alt=""

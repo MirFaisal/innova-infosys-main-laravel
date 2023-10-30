@@ -31,7 +31,7 @@ Route::get('/privacy-policy', function () {
     return view('privacy-policy');
 })->name('PRIVACY');
 
-Route::get('/Client', function () {
+Route::get('/clients', function () {
     return view('clients');
 })->name('CLIENT');
 
