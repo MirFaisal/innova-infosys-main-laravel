@@ -150,6 +150,9 @@ html::-webkit-scrollbar {
 .soluton-info {
     width: 90%;
 }
+.clients-container img {
+    width: 100px;
+}
 /* common style end */
 /* body */
 body {

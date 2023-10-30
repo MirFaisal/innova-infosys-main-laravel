@@ -31,6 +31,10 @@ Route::get('/privacy-policy', function () {
     return view('privacy-policy');
 })->name('PRIVACY');
 
+Route::get('/Client', function () {
+    return view('clients');
+})->name('CLIENT');
+
 Route::get('/dashboard', [UserMessageController::class, 'messages'])->middleware(['auth', 'verified'])->name('dashboard');
 
 Route::get('/hq/employee/show', [EmployeeController::class, 'index'])->middleware(['auth', 'verified'])->name('employee.show');

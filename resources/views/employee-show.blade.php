@@ -90,9 +90,15 @@
                                     </td>
                                     <td class="px-6 py-4">
                                         <div class="flex items-center">
+                                            @if ($employee->status == 'In Service') 
                                             <div
                                                 class="h-2.5 w-2.5 rounded-full bg-green-500 mr-2"
                                             ></div>
+                                            @else
+                                            <div
+                                                class="h-2.5 w-2.5 rounded-full bg-red-500 mr-2"
+                                            ></div>
+                                            @endif
                                             {{$employee->status}}
                                         </div>
                                     </td>
