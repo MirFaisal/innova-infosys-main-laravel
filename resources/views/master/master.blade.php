@@ -67,6 +67,7 @@
 
             gtag("config", "G-2YBWYLJWHQ");
         </script>
+        @vite(['resources/css/app.css','resources/js/app.js'])
     </head>
     <body class="relative">
         <nav class="border-gray-200 fixed top-0 w-screen z-50">
