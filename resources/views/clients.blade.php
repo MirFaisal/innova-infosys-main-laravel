@@ -3,7 +3,7 @@
 @section('content')
     <div class="max-w-screen-xl mx-auto my-24 flex flex-col items-center justify-center">
         <div class="text my-10 pb-5 flex justify-start w-full">
-            <h2 class="font-bold text-3xl border-s-4 border-black ps-4">Our Clients</h2>
+            <h2 class="font-bold text-3xl border-s-4 border-black ps-4 ms-2">Our Clients</h2>
         </div>
             <div class="clients-container flex justify-center flex-wrap">
                 <div class="border p-8 flex justify-center items-center flex-auto hover:">
