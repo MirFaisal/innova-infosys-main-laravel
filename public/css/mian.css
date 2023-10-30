@@ -198,8 +198,8 @@ nav {
     align-items: center;
 }
 .banner {
-    background: url("../banner.jpg") no-repeat center;
-    background-size: cover;
+    background: url("../banner.jpg") no-repeat right;
+    background-size: contain;
     box-shadow: 700px 0px 400px 50px rgb(255, 255, 255) inset;
 }
 /* hero-section end */

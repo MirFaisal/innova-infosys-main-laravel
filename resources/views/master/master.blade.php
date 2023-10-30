@@ -163,10 +163,13 @@
 
         <!-- modal -->
         <!-- You can open the modal using ID.showModal() method -->
-        <dialog id="Finance_and_Banking" class="modal w-3/4 modal-middle">
-            <form method="dialog" class="w-full md:p-6">
+        <dialog
+            id="Finance_and_Banking"
+            class="modal md:w-3/4 p-0 xs:w-full xs:px-2 modal-middle"
+        >
+            <form method="dialog" class="w-full xs:px-2 md:p-6">
                 <h3 class="font-bold text-3xl mb-4">Finance and Banking</h3>
-                <p class="py-4 break-all mx-auto">
+                <p class="py-4 px-2 break-all mx-auto">
                     In the fast-paced world of finance and banking, staying
                     ahead of the curve is crucial to maintain a competitive
                     edge. Technological advancements have revolutionized the
@@ -251,10 +254,13 @@
             </form>
         </dialog>
         <!--  -->
-        <dialog id="Hospital_Management" class="modal w-3/4 modal-middle">
-            <form method="dialog" class="w-full md:p-6">
+        <dialog
+            id="Hospital_Management"
+            class="modal md:w-3/4 p-0 xs:w-full xs:px-2 modal-middle"
+        >
+            <form method="dialog" class="w-full xs:px-2 md:p-6">
                 <h3 class="font-bold text-3xl mb-4">Hospital Management</h3>
-                <p class="py-4 break-all mx-auto">
+                <p class="py-4 px-2 break-all mx-auto">
                     The hospital management industry plays a pivotal role in
                     providing quality healthcare services while ensuring
                     efficient operations and optimal patient care. In an era of
@@ -363,12 +369,15 @@
             </form>
         </dialog>
         <!--  -->
-        <dialog id="E_commerce_and_Retail" class="modal w-3/4 modal-middle">
-            <form method="dialog" class="w-full md:p-6">
+        <dialog
+            id="E_commerce_and_Retail"
+            class="modal md:w-3/4 p-0 xs:w-full xs:px-2 modal-middle"
+        >
+            <form method="dialog" class="w-full xs:px-2 md:p-6">
                 <h3 class="font-bold text-3xl mb-4">
                     E-commerce and Retail industry
                 </h3>
-                <p class="py-4 break-all mx-auto">
+                <p class="py-4 px-2 break-all mx-auto">
                     At our esteemed IT company, we understand the ever-evolving
                     landscape of the E-commerce and Retail industry and the
                     pressing need for innovative technological solutions to stay
@@ -470,10 +479,13 @@
             </form>
         </dialog>
         <!--  -->
-        <dialog id="Transportation" class="modal w-3/4 modal-middle">
-            <form method="dialog" class="w-full md:p-6">
+        <dialog
+            id="Transportation"
+            class="modal md:w-3/4 p-0 xs:w-full xs:px-2 modal-middle"
+        >
+            <form method="dialog" class="w-full xs:px-2 md:p-6">
                 <h3 class="font-bold text-3xl mb-4">Logistics</h3>
-                <p class="py-4 break-all mx-auto">
+                <p class="py-4 px-2 break-all mx-auto">
                     In today's fast-paced and interconnected world, the
                     logistics industry plays a critical role in ensuring the
                     smooth flow of goods and services across the globe. As the
@@ -570,10 +582,13 @@
             </form>
         </dialog>
         <!--  -->
-        <dialog id="Logistics" class="modal w-3/4 modal-middle">
-            <form method="dialog" class="w-full md:p-6">
+        <dialog
+            id="Logistics"
+            class="modal md:w-3/4 p-0 xs:w-full xs:px-2 modal-middle"
+        >
+            <form method="dialog" class="w-full xs:px-2 md:p-6">
                 <h3 class="font-bold text-3xl mb-4">Manufacturing</h3>
-                <p class="py-4 break-all mx-auto">
+                <p class="py-4 px-2 break-all mx-auto">
                     In the fast-paced and ever-evolving landscape of the
                     manufacturing industry, efficient management is the key to
                     success. As technology continues to reshape the
@@ -675,10 +690,13 @@
             </form>
         </dialog>
         <!--  -->
-        <dialog id="Manufacturing" class="modal w-3/4 modal-middle">
-            <form method="dialog" class="w-full md:p-6">
+        <dialog
+            id="Manufacturing"
+            class="modal md:w-3/4 p-0 xs:w-full xs:px-2 modal-middle"
+        >
+            <form method="dialog" class="w-full xs:px-2 md:p-6">
                 <h3 class="font-bold text-3xl mb-4">Manufacturing</h3>
-                <p class="py-4 break-all mx-auto">
+                <p class="py-4 px-2 break-all mx-auto">
                     In the fast-paced and ever-evolving landscape of the
                     manufacturing industry, efficient management is the key to
                     success. As technology continues to reshape the
@@ -780,12 +798,15 @@
             </form>
         </dialog>
         <!--  -->
-        <dialog id="bms_automation" class="modal w-3/4 modal-middle">
-            <form method="dialog" class="w-full md:p-6">
+        <dialog
+            id="bms_automation"
+            class="modal md:w-3/4 p-0 xs:w-full xs:px-2 modal-middle"
+        >
+            <form method="dialog" class="w-full xs:px-2 md:p-6">
                 <h3 class="font-bold text-3xl mb-4">
                     Elevate Efficiency and Sustainability with BMS Automation
                 </h3>
-                <p class="py-4 break-all mx-auto">
+                <p class="py-4 px-2 break-all mx-auto">
                     In today's rapidly advancing technological landscape,
                     businesses and institutions are continually seeking ways to
                     improve operational efficiency and reduce their
@@ -875,12 +896,15 @@
             </form>
         </dialog>
         <!--  -->
-        <dialog id="home_automation" class="modal w-3/4 modal-middle">
-            <form method="dialog" class="w-full md:p-6">
+        <dialog
+            id="home_automation"
+            class="modal md:w-3/4 p-0 xs:w-full xs:px-2 modal-middle"
+        >
+            <form method="dialog" class="w-full xs:px-2 md:p-6">
                 <h3 class="font-bold text-3xl mb-4">
                     Elevate Your Lifestyle with Home Automation
                 </h3>
-                <p class="py-4 break-all mx-auto">
+                <p class="py-4 px-2 break-all mx-auto">
                     In the ever-evolving landscape of technology, our homes have
                     become hubs of innovation and convenience. Since 2013, our
                     company has been dedicated to enhancing the way you live by
