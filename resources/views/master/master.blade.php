@@ -53,18 +53,23 @@
             href="https://fonts.bunny.net/css?family=figtree:400,600&display=swap"
             rel="stylesheet"
         />
-         <!-- Google tag (gtag.js) -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-2YBWYLJWHQ"></script>
+        <!-- Google tag (gtag.js) -->
+        <script
+            async
+            src="https://www.googletagmanager.com/gtag/js?id=G-2YBWYLJWHQ"
+        ></script>
         <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-        
-          gtag('config', 'G-2YBWYLJWHQ');
+            window.dataLayer = window.dataLayer || [];
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag("js", new Date());
+
+            gtag("config", "G-2YBWYLJWHQ");
         </script>
     </head>
     <body class="relative">
-        <nav class="border-gray-200 fixed top-0 w-screen z-50 ">
+        <nav class="border-gray-200 fixed top-0 w-screen z-50">
             <div
                 class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4"
             >
@@ -74,6 +79,11 @@
                         class="w-32 mr-3"
                         alt="Innova infosys"
                     />
+                    <div class="border-l h-full">
+                        <p class="ps-3 text-xs text-black font-thin">
+                            Since 2013
+                        </p>
+                    </div>
                 </a>
                 <button
                     data-collapse-toggle="navbar-default"
@@ -99,6 +109,7 @@
                         />
                     </svg>
                 </button>
+                {{-- nav link --}}
                 <div
                     class="hidden w-full md:block md:w-auto"
                     id="navbar-default"
@@ -759,6 +770,196 @@
                     transformative journey toward a more efficient and
                     successful future.
                 </p>
+                <div class="modal-action">
+                    <!-- if there is a button, it will close the modal -->
+                    <div class="w-full flex justify-end">
+                        <button class="btn-main px-4 py-2">Close</button>
+                    </div>
+                </div>
+            </form>
+        </dialog>
+        <!--  -->
+        <dialog id="bms_automation" class="modal w-3/4 modal-middle">
+            <form method="dialog" class="w-full md:p-6">
+                <h3 class="font-bold text-3xl mb-4">
+                    Elevate Efficiency and Sustainability with BMS Automation
+                </h3>
+                <p class="py-4 break-all mx-auto">
+                    In today's rapidly advancing technological landscape,
+                    businesses and institutions are continually seeking ways to
+                    improve operational efficiency and reduce their
+                    environmental footprint. One key solution that has gained
+                    prominence over the years is Building Management System
+                    (BMS) automation. Since 2013, our company has been at the
+                    forefront of providing expert BMS automation services that
+                    not only optimize building performance but also contribute
+                    to sustainability goals.
+                    <br />
+                    <br />
+                    Building Management System (BMS) automation is the
+                    integration of various systems within a building to
+                    streamline operations, monitor performance, and ensure
+                    energy efficiency. It encompasses a wide range of functions,
+                    including HVAC (heating, ventilation, and air conditioning)
+                    control, lighting management, security systems, and more. By
+                    automating these systems and centralizing their control, BMS
+                    automation can improve occupant comfort, reduce energy
+                    consumption, and enhance building security.
+                    <br />
+                    <br />
+                </p>
+
+                <p class="font-semibold text-xl">
+                    The Benefits of BMS Automation:
+                </p>
+                <br />
+                1. Energy Efficiency: BMS automation is a cornerstone of energy
+                management in commercial and institutional buildings. By
+                optimizing HVAC systems, lighting, and other energy-consuming
+                processes, BMS can lead to substantial reductions in energy
+                consumption and operational costs. This not only lowers utility
+                bills but also aligns your organization with eco-friendly
+                practices, making a positive impact on the environment.<br />
+                2. Comfort and Control: BMS automation provides unprecedented
+                control and customization options. Building operators can
+                fine-tune settings to create an ideal environment for occupants.
+                Temperature, lighting, and ventilation can be adjusted to
+                maximize comfort while ensuring minimal energy waste.<br />
+                3. Enhanced Security: Integrating security systems within BMS
+                automation allows for better monitoring and response to
+                potential threats. Access control, surveillance, and alarms can
+                be centralized, creating a more secure environment for
+                occupants.<br />
+                4. Predictive Maintenance: BMS automation can also contribute to
+                cost savings by enabling predictive maintenance. The system can
+                monitor the health of building equipment and generate alerts
+                when maintenance is needed. This proactive approach reduces
+                downtime and prevents costly emergency repairs.<br />
+                5. Sustainability and Green Building Certification: BMS
+                automation is often a critical component in achieving
+                sustainability goals and green building certifications, such as
+                LEED (Leadership in Energy and Environmental Design). By
+                reducing energy consumption and utilizing renewable resources
+                efficiently, BMS can help your building meet the stringent
+                criteria for these certifications.
+                <br />
+                <br />
+                <p class="font-semibold text-xl">
+                    Why Choose Our BMS Automation Services?
+                </p>
+                <br />
+                With nearly a decade of experience in BMS automation, we have a
+                proven track record of delivering innovative, efficient, and
+                sustainable solutions. Our team of experts is dedicated to
+                tailoring BMS systems to meet your specific needs, whether
+                you're looking to enhance energy efficiency, improve occupant
+                comfort, or bolster security measures. We stay updated with the
+                latest industry advancements to ensure your building benefits
+                from cutting-edge technology. Investing in BMS automation is an
+                investment in the future of your building and the planet.
+                Contact us today to learn how our services can elevate your
+                building's performance and sustainability, helping you achieve
+                your goals for efficiency and environmental responsibility.
+                Let's work together to make your building smarter, greener, and
+                more comfortable.
+                <br />
+                <br />
+
+                <div class="modal-action">
+                    <!-- if there is a button, it will close the modal -->
+                    <div class="w-full flex justify-end">
+                        <button class="btn-main px-4 py-2">Close</button>
+                    </div>
+                </div>
+            </form>
+        </dialog>
+        <!--  -->
+        <dialog id="home_automation" class="modal w-3/4 modal-middle">
+            <form method="dialog" class="w-full md:p-6">
+                <h3 class="font-bold text-3xl mb-4">
+                    Elevate Your Lifestyle with Home Automation
+                </h3>
+                <p class="py-4 break-all mx-auto">
+                    In the ever-evolving landscape of technology, our homes have
+                    become hubs of innovation and convenience. Since 2013, our
+                    company has been dedicated to enhancing the way you live by
+                    providing top-notch home automation services. In this
+                    article, we'll explore the world of home automation, its
+                    benefits, and how our expertise can transform your living
+                    space into a smarter, more efficient, and secure
+                    environment.
+                    <br />
+                    <br />
+                    <span class="text-xl font-semibold"
+                        >The Power of Home Automation:</span
+                    >
+                    Home automation is the integration of various smart
+                    technologies that enable you to control and manage your
+                    home's essential systems effortlessly. From lighting and
+                    temperature to security and entertainment, these systems can
+                    be monitored and controlled remotely, often through a
+                    smartphone or voice-activated device. Here's why you should
+                    consider embracing home automation:
+                    <br />
+                    <br />
+                </p>
+
+                <span class="font-semibold text-xl">
+                    Convenience and Comfort:
+                </span>
+                <br />
+                1. Imagine adjusting your home's lighting, temperature, and
+                music with a single touch or a voice command. Home automation
+                allows you to create personalized settings and schedules, making
+                your daily routine more comfortable and enjoyable. Say goodbye
+                to manually adjusting thermostats and switches; your home will
+                adapt to your preferences automatically.<br />
+                2. Energy Efficiency: With home automation, you can
+                significantly reduce energy wastage. Smart thermostats can
+                optimize heating and cooling, smart lighting can automatically
+                turn off when not in use, and smart appliances can operate
+                during off-peak hours. As a result, you'll see a decrease in
+                your energy bills while also reducing your carbon footprint.<br />
+                3. Enhanced Security: Home automation systems can include
+                features like smart locks, security cameras, and motion sensors.
+                This means you can keep an eye on your home, receive alerts
+                about any suspicious activities, and even remotely grant access
+                to trusted individuals. Your home becomes a fortress that you
+                can monitor from anywhere in the world.<br />
+                4. Entertainment and Multimedia: With home automation, your
+                entertainment experience reaches a new level. Stream your
+                favorite music and movies throughout your home, control your TV
+                and sound systems with a single device, and create immersive
+                home theater experiences that rival commercial cinemas.<br />
+
+                <br />
+                <br />
+                <p class="font-semibold text-xl">
+                    Why Choose Our BMS Automation Services?
+                </p>
+                <br />
+                Expertise: We have a team of experienced professionals who stay
+                at the forefront of the industry. We understand the latest
+                trends and technologies, ensuring that your home is equipped
+                with the best and most up-to-date solutions.
+                <br />
+                Customization: We know that each home is unique. We work closely
+                with you to understand your specific needs and preferences,
+                creating a home automation system that aligns perfectly with
+                your lifestyle.
+                <br />
+                Reliability: Our solutions are designed for robustness and
+                stability. We believe that your home automation should work
+                seamlessly every day, and we ensure that it does.
+                <br />
+                <br />
+                Transform your home into a smart haven where convenience, energy
+                efficiency, security, and entertainment converge seamlessly.
+                Contact us today to explore the possibilities and start your
+                journey toward a more intelligent and connected home. With our
+                expertise, you'll unlock the full potential of home automation
+                and enjoy a lifestyle that's both efficient and enjoyable.
+
                 <div class="modal-action">
                     <!-- if there is a button, it will close the modal -->
                     <div class="w-full flex justify-end">

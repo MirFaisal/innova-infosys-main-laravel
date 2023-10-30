@@ -470,9 +470,182 @@
                         />
                     </div>
                 </div>
+
+                <div
+                    id="bms"
+                    class="industries-item md:h-[340px] md:flex justify-start items-center relative"
+                >
+                    <div
+                        class="text md:w-[900px] md:h-[260px] p-8 flex flex-col space-y-5 md:absolute right-0 z-40"
+                    >
+                        <h3 class="text-3xl">MBS Automation</h3>
+                        <p>
+                            Our expertise in Building Management System (BMS)
+                            automation services has been shaping smarter, more
+                            efficient buildings since 2013. Learn how our
+                            solutions optimize energy consumption, enhance
+                            security, and ensure superior comfort and control.
+                        </p>
+                        <div class="w-full pt-5 flex justify-end">
+                            <button
+                                class="btn-main py-2 px-6"
+                                onclick="{bms_automation.showModal()}"
+                            >
+                                Read more
+                            </button>
+                        </div>
+                    </div>
+                    <div
+                        class="industries-showcase md:w-[540px] overflow-hidden"
+                    >
+                        <img
+                            class="transition-all duration-500"
+                            src="{{
+                                asset(
+                                    '/industries_showcase/industries_showcase6.jpg'
+                                )
+                            }}"
+                            alt=""
+                        />
+                    </div>
+                </div>
+                <div
+                    id="finance"
+                    class="industries-item md:h-[340px] md:flex justify-end items-center md:relative"
+                >
+                    <div
+                        class="text md:w-[900px] md:h-[260px] p-8 flex flex-col space-y-5 md:absolute left-0 z-40"
+                    >
+                        <h3 class="text-3xl">Home Automation</h3>
+                        <p class="md:w-full">
+                            Transform Your Home with Smart Technology: Since
+                            2013, we've been at the forefront of home automation
+                            services. Discover how our solutions can make your
+                            home smarter, more convenient, and energy-efficient.
+                        </p>
+                        <div class="w-full pt-5 flex justify-end">
+                            <button
+                                class="btn-main py-2 px-6"
+                                onclick="{home_automation.showModal()}"
+                            >
+                                Read more
+                            </button>
+                        </div>
+                    </div>
+                    <div
+                        class="industries-showcase md:w-[540px] overflow-hidden"
+                    >
+                        <img
+                            class="transition-all duration-500"
+                            src="{{
+                                asset(
+                                    '/industries_showcase/industries_showcase7.jpg'
+                                )
+                            }}"
+                            alt=""
+                        />
+                    </div>
+                </div>
             </div>
         </div>
     </section>
     <!--  -->
+    <!-- client -->
+    <section>
+        <div
+            class="max-w-screen-xl mx-auto my-24 flex flex-col items-center justify-center"
+        >
+            <div class="text my-10 pb-5 flex justify-start w-full">
+                <h2
+                    class="font-bold text-3xl border-s-4 border-black ps-4 ms-2"
+                >
+                    Our Clients
+                </h2>
+            </div>
+            <div class="clients-container flex justify-center flex-wrap">
+                <div
+                    class="border p-8 flex justify-center items-center flex-auto hover:"
+                >
+                    <img
+                        src="{{ asset('clients/bangladesh_bank.png') }}"
+                        alt=""
+                    />
+                </div>
+                <div
+                    class="border p-8 flex justify-center items-center flex-auto hover:"
+                >
+                    <img
+                        src="{{
+                            asset(
+                                'clients/Roundel_of_Bangladesh_–_Army_Aviation.svg.png'
+                            )
+                        }}"
+                        alt=""
+                    />
+                </div>
+                <div
+                    class="border p-8 flex justify-center items-center flex-auto hover:"
+                >
+                    <img
+                        src="{{ asset('clients/apollo-hospitals-logo.png') }}"
+                        alt=""
+                    />
+                </div>
+                <div
+                    class="border p-8 flex justify-center items-center flex-auto hover:"
+                >
+                    <img src="{{ asset('clients/asian_paints.png') }}" alt="" />
+                </div>
+                <div
+                    class="border p-8 flex justify-center items-center flex-auto hover:"
+                >
+                    <img src="{{ asset('clients/unilivar.jpeg') }}" alt="" />
+                </div>
+                <div
+                    class="border p-8 flex justify-center items-center flex-auto hover:"
+                >
+                    <img src="{{ asset('clients/banglalink.png') }}" alt="" />
+                </div>
+                <div
+                    class="border p-8 flex justify-center items-center flex-auto hover:"
+                >
+                    <img src="{{ asset('clients/beximco.png') }}" alt="" />
+                </div>
+                <div
+                    class="border p-8 flex justify-center items-center flex-auto hover:"
+                >
+                    <img src="{{ asset('clients/Renata-Blue.png') }}" alt="" />
+                </div>
+                <div
+                    class="border p-8 flex justify-center items-center flex-auto hover:"
+                >
+                    <img
+                        src="{{
+                            asset('clients/bashundhara-group-vector-logo.png')
+                        }}"
+                        alt=""
+                    />
+                </div>
+                <div
+                    class="border p-8 flex justify-center items-center flex-auto hover:"
+                >
+                    <img
+                        src="{{
+                            asset(
+                                'clients/british-american-tobacco-logo-24008E435B-seeklogo.com.png'
+                            )
+                        }}"
+                        alt=""
+                    />
+                </div>
+            </div>
+        </div>
+        <div class="flex justify-center">
+            <a href="{{ route('CLIENT') }}" class="btn-main py-2 px-6 m-0"
+                >View More</a
+            >
+        </div>
+    </section>
+    <!-- client -->
 </main>
 @endsection

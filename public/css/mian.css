@@ -161,14 +161,9 @@ body {
     font-weight: 400;
     line-height: 1.5;
     color: #000;
+    background: white;
     /* second choice */
-    background-image: radial-gradient(73% 147%, #eadfdf 59%, #ece2df 100%),
-        radial-gradient(
-            91% 146%,
-            rgb(255, 255, 255) 47%,
-            rgba(0, 0, 0, 0.5) 100%
-        );
-    background-blend-mode: screen;
+
     /* second choice */
     /* background-image: radial-gradient(73% 147%, #d5e0e4e7 59%, #d8d9d94b 100%),
     radial-gradient(
@@ -177,6 +172,17 @@ body {
       rgba(0, 0, 0, 0.5) 100%
     ); */
     /* background-blend-mode: screen; */
+}
+@supports (background-blend-mode: screen) {
+    body {
+        background-image: radial-gradient(73% 147%, #eadfdf 59%, #ece2df 100%),
+            radial-gradient(
+                91% 146%,
+                rgb(255, 255, 255) 47%,
+                rgba(0, 0, 0, 0.5) 100%
+            );
+        background-blend-mode: screen;
+    }
 }
 /* header style start */
 nav {
