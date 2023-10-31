@@ -17,7 +17,7 @@
                             quote, or simply learn more about our services. We
                             look forward to collaborating with you.
                         </p>
-                        <div class="flex">
+                        <div class="flex xs:flex-col md:flex-row">
                             <div class="flex flex-col space-y-8 pr-2 border-r">
                                 <div class="flex gap-3">
                                     <img
