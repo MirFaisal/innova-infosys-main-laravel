@@ -229,6 +229,7 @@
                         </div>
                         <div class="solution-showcase">
                             <img
+                                loading="lazy"
                                 src="{{
                                     asset('/solution_showcase/showcase3.jpg')
                                 }}"
@@ -237,6 +238,7 @@
                         </div>
                         <div class="solution-showcase">
                             <img
+                                loading="lazy"
                                 src="{{
                                     asset('/solution_showcase/showcase4.jpg')
                                 }}"
@@ -245,6 +247,7 @@
                         </div>
                         <div class="solution-showcase">
                             <img
+                                loading="lazy"
                                 src="{{
                                     asset('/solution_showcase/showcase5.jpg')
                                 }}"
@@ -253,6 +256,7 @@
                         </div>
                         <div class="solution-showcase">
                             <img
+                                loading="lazy"
                                 src="{{
                                     asset('/solution_showcase/showcase6.jpg')
                                 }}"
@@ -261,6 +265,7 @@
                         </div>
                         <div class="solution-showcase">
                             <img
+                                loading="lazy"
                                 src="{{
                                     asset('/solution_showcase/showcase7.jpg')
                                 }}"
@@ -308,6 +313,7 @@
                         class="industries-showcase md:w-[540px] overflow-hidden"
                     >
                         <img
+                            loading="lazy"
                             class="transition-all duration-500"
                             src="{{
                                 asset(
@@ -346,6 +352,7 @@
                         class="industries-showcase md:w-[540px] overflow-hidden"
                     >
                         <img
+                            loading="lazy"
                             class="transition-all duration-500"
                             src="{{
                                 asset(
@@ -384,6 +391,7 @@
                         class="industries-showcase md:w-[540px] overflow-hidden"
                     >
                         <img
+                            loading="lazy"
                             class="transition-all duration-500"
                             src="{{
                                 asset(
@@ -422,6 +430,7 @@
                         class="industries-showcase md:w-[540px] overflow-hidden"
                     >
                         <img
+                            loading="lazy"
                             class="transition-all duration-500"
                             src="{{
                                 asset(
@@ -460,6 +469,7 @@
                         class="industries-showcase md:w-[540px] overflow-hidden"
                     >
                         <img
+                            loading="lazy"
                             class="transition-all duration-500"
                             src="{{
                                 asset(
@@ -499,6 +509,7 @@
                         class="industries-showcase md:w-[540px] overflow-hidden"
                     >
                         <img
+                            loading="lazy"
                             class="transition-all duration-500"
                             src="{{
                                 asset(
@@ -536,6 +547,7 @@
                         class="industries-showcase md:w-[540px] overflow-hidden"
                     >
                         <img
+                            loading="lazy"
                             class="transition-all duration-500"
                             src="{{
                                 asset(
@@ -567,6 +579,7 @@
                     class="border p-8 flex justify-center items-center flex-auto hover:"
                 >
                     <img
+                        loading="lazy"
                         src="{{ asset('clients/bangladesh_bank.png') }}"
                         alt=""
                     />
@@ -575,11 +588,8 @@
                     class="border p-8 flex justify-center items-center flex-auto hover:"
                 >
                     <img
-                        src="{{
-                            asset(
-                                'clients/Roundel_of_Bangladesh_.png'
-                            )
-                        }}"
+                        loading="lazy"
+                        src="{{ asset('clients/Roundel_of_Bangladesh_.png') }}"
                         alt=""
                     />
                 </div>
@@ -587,6 +597,7 @@
                     class="border p-8 flex justify-center items-center flex-auto hover:"
                 >
                     <img
+                        loading="lazy"
                         src="{{ asset('clients/apollo-hospitals-logo.png') }}"
                         alt=""
                     />
@@ -594,32 +605,53 @@
                 <div
                     class="border p-8 flex justify-center items-center flex-auto hover:"
                 >
-                    <img src="{{ asset('clients/asian_paints.png') }}" alt="" />
-                </div>
-                <div
-                    class="border p-8 flex justify-center items-center flex-auto hover:"
-                >
-                    <img src="{{ asset('clients/unilivar.jpeg') }}" alt="" />
-                </div>
-                <div
-                    class="border p-8 flex justify-center items-center flex-auto hover:"
-                >
-                    <img src="{{ asset('clients/banglalink.png') }}" alt="" />
-                </div>
-                <div
-                    class="border p-8 flex justify-center items-center flex-auto hover:"
-                >
-                    <img src="{{ asset('clients/beximco.png') }}" alt="" />
-                </div>
-                <div
-                    class="border p-8 flex justify-center items-center flex-auto hover:"
-                >
-                    <img src="{{ asset('clients/Renata-Blue.png') }}" alt="" />
+                    <img
+                        loading="lazy"
+                        src="{{ asset('clients/asian_paints.png') }}"
+                        alt=""
+                    />
                 </div>
                 <div
                     class="border p-8 flex justify-center items-center flex-auto hover:"
                 >
                     <img
+                        loading="lazy"
+                        src="{{ asset('clients/unilivar.jpeg') }}"
+                        alt=""
+                    />
+                </div>
+                <div
+                    class="border p-8 flex justify-center items-center flex-auto hover:"
+                >
+                    <img
+                        loading="lazy"
+                        src="{{ asset('clients/banglalink.png') }}"
+                        alt=""
+                    />
+                </div>
+                <div
+                    class="border p-8 flex justify-center items-center flex-auto hover:"
+                >
+                    <img
+                        loading="lazy"
+                        src="{{ asset('clients/beximco.png') }}"
+                        alt=""
+                    />
+                </div>
+                <div
+                    class="border p-8 flex justify-center items-center flex-auto hover:"
+                >
+                    <img
+                        loading="lazy"
+                        src="{{ asset('clients/Renata-Blue.png') }}"
+                        alt=""
+                    />
+                </div>
+                <div
+                    class="border p-8 flex justify-center items-center flex-auto hover:"
+                >
+                    <img
+                        loading="lazy"
                         src="{{
                             asset('clients/bashundhara-group-vector-logo.png')
                         }}"
@@ -630,6 +662,7 @@
                     class="border p-8 flex justify-center items-center flex-auto hover:"
                 >
                     <img
+                        loading="lazy"
                         src="{{
                             asset(
                                 'clients/british-american-tobacco-logo-24008E435B-seeklogo.com.png'

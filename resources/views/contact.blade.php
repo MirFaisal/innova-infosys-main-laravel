@@ -17,57 +17,129 @@
                             quote, or simply learn more about our services. We
                             look forward to collaborating with you.
                         </p>
-                        <div class="flex flex-col space-y-8">
-                            <div class="flex space-x-2">
-                                <div class="icon">
+                        <div class="flex">
+                            <div class="flex flex-col space-y-8 pr-2 border-r">
+                                <div class="flex gap-3">
                                     <img
-                                        width="24"
-                                        height="24"
-                                        src="https://img.icons8.com/fluency/48/phone.png"
-                                        alt="phone"
+                                        width="28"
+                                        height="28"
+                                        src="https://img.icons8.com/color/48/bangladesh.png"
+                                        alt="bangladesh"
                                     />
+                                    <h2>Bangladesh HQ</h2>
                                 </div>
-                                <div class="phone-number flex flex-col">
-                                    <a href="tet:+8801571-005859"
-                                        >+8801571-005859</a
-                                    >
-                                    <a href="tet:+8801830-360494"
-                                        >+8801830-360494</a
-                                    >
-                                    <a href="tet:+8801964-353056"
-                                        >+8801964-353056</a
-                                    >
+                                <div class="flex space-x-2">
+                                    <div class="icon">
+                                        <img
+                                            width="24"
+                                            height="24"
+                                            src="https://img.icons8.com/fluency/48/phone.png"
+                                            alt="phone"
+                                        />
+                                    </div>
+                                    <div class="phone-number flex flex-col">
+                                        <a href="tet:+8801571-005859"
+                                            >+8801571-005859</a
+                                        >
+                                        <a href="tet:+8801830-360494"
+                                            >+8801830-360494</a
+                                        >
+                                        <a href="tet:+8801964-353056"
+                                            >+8801964-353056</a
+                                        >
+                                    </div>
+                                </div>
+                                <div class="flex space-x-3">
+                                    <div class="icon">
+                                        <img
+                                            width="24"
+                                            height="24"
+                                            src="https://img.icons8.com/fluency/48/mail.png"
+                                            alt="mail"
+                                        />
+                                    </div>
+                                    <div class="Email flex flex-col">
+                                        <a href="mailto: info@innovainfosys.com"
+                                            >info@innovainfosys.com</a
+                                        >
+                                    </div>
+                                </div>
+                                <div class="flex space-x-3">
+                                    <div class="icon">
+                                        <img
+                                            width="24"
+                                            height="24"
+                                            src="https://img.icons8.com/fluency/48/gps-device.png"
+                                            alt="gps-device"
+                                        />
+                                    </div>
+                                    <div class="address flex flex-col">
+                                        <a href="mailto: abc@example.com"
+                                            >House # 10, Block #C Main Road,
+                                            <br />
+                                            Banasree Rampura, Dhaka-1219</a
+                                        >
+                                    </div>
                                 </div>
                             </div>
-                            <div class="flex space-x-3">
-                                <div class="icon">
+
+                            <div class="flex flex-col space-y-8 pl-2">
+                                <div class="flex gap-3">
                                     <img
-                                        width="24"
-                                        height="24"
-                                        src="https://img.icons8.com/fluency/48/mail.png"
-                                        alt="mail"
+                                        width="28"
+                                        height="28"
+                                        src="https://img.icons8.com/color/48/canada.png"
+                                        alt="bangladesh"
                                     />
+                                    <h2>Canada HQ</h2>
                                 </div>
-                                <div class="Email flex flex-col">
-                                    <a href="mailto: info@innovainfosys.com"
-                                        >info@innovainfosys.com</a
-                                    >
+                                <div class="flex space-x-2">
+                                    <div class="icon">
+                                        <img
+                                            width="24"
+                                            height="24"
+                                            src="https://img.icons8.com/fluency/48/phone.png"
+                                            alt="phone"
+                                        />
+                                    </div>
+                                    <div class="phone-number flex flex-col">
+                                        <a href="tet:+1613 401 6661"
+                                            >+1613 401 6661</a
+                                        >
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="flex space-x-3">
-                                <div class="icon">
-                                    <img
-                                        width="24"
-                                        height="24"
-                                        src="https://img.icons8.com/fluency/48/gps-device.png"
-                                        alt="gps-device"
-                                    />
+                                <div class="flex space-x-3">
+                                    <div class="icon">
+                                        <img
+                                            width="24"
+                                            height="24"
+                                            src="https://img.icons8.com/fluency/48/mail.png"
+                                            alt="mail"
+                                        />
+                                    </div>
+                                    <div class="Email flex flex-col">
+                                        <a
+                                            href="mailto: hq.innovainfosys@gmail.com"
+                                            >hq.innovainfosys@gmail.com</a
+                                        >
+                                    </div>
                                 </div>
-                                <div class="address flex flex-col">
-                                    <a href="mailto: abc@example.com"
-                                        >House # 10, Block #C Main Road, <br />
-                                        Banasree Rampura, Dhaka-1219</a
-                                    >
+                                <div class="flex space-x-3">
+                                    <div class="icon">
+                                        <img
+                                            width="24"
+                                            height="24"
+                                            src="https://img.icons8.com/fluency/48/gps-device.png"
+                                            alt="gps-device"
+                                        />
+                                    </div>
+                                    <div class="address flex flex-col">
+                                        <a href="mailto: abc@example.com"
+                                            >463 Cope Drive, Stittsville,
+                                            <br />
+                                            Ontario Canada K2V 0P1</a
+                                        >
+                                    </div>
                                 </div>
                             </div>
                         </div>
