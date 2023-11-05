@@ -20,7 +20,6 @@
         />
 
         <!-- Remote css cdn -->
-        <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
         <script src="https://cdn.tailwindcss.com"></script>
 
         <!-- local style -->
@@ -70,7 +69,7 @@
         @vite(['resources/css/app.css','resources/js/app.js'])
     </head>
     <body class="relative">
-        <nav class="border-gray-200 fixed top-0 w-screen z-50">
+        <nav class="border-gray-200 fixed top-0 w-screen border-b z-50">
             <div
                 class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4"
             >
@@ -81,7 +80,10 @@
                         alt="Innova infosys"
                     />
                     <div class="border-l h-full">
-                        <p class="ps-3 text-xs text-black font-thin">
+                        <p
+                            class="ps-3 text-sm text-black"
+                            style="font-family: SegoeUI-600"
+                        >
                             Since 2013
                         </p>
                     </div>
@@ -116,7 +118,7 @@
                     id="navbar-default"
                 >
                     <ul
-                        class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg md:flex-row md:space-x-8 md:mt-0 md:border-0"
+                        class="text-lg flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg md:flex-row md:space-x-8 md:mt-0 md:border-0"
                     >
                         <li>
                             <a
@@ -1056,9 +1058,7 @@
                             class="mt-8 flex justify-between gap-8 sm:grid-cols-3"
                         >
                             <div>
-                                <p class="font-medium text-gray-900">
-                                    Services
-                                </p>
+                                <p class="font-bold text-gray-900">Services</p>
 
                                 <ul class="mt-6 space-y-4 text-sm">
                                     <li>
@@ -1109,9 +1109,7 @@
                             </div>
 
                             <div>
-                                <p class="font-medium text-gray-900">
-                                    Follow us
-                                </p>
+                                <p class="font-bold text-gray-900">Follow us</p>
 
                                 <ul class="mt-6 space-y-4 text-sm">
                                     <li>
@@ -1168,7 +1166,7 @@
                             </div>
 
                             <div>
-                                <p class="font-medium text-gray-900">
+                                <p class="font-bold text-gray-900">
                                     Helpful Links
                                 </p>
 
@@ -1199,14 +1197,14 @@
                                         </a>
                                     </li> -->
 
-                                    <li>
+                                    <!-- <li>
                                         <a
                                             href="{{ ROUTE('CAREERS') }}"
                                             class="text-gray-700 transition hover:opacity-75"
                                         >
                                             Career
                                         </a>
-                                    </li>
+                                    </li> -->
                                 </ul>
                             </div>
                         </div>
@@ -1242,8 +1240,8 @@
                             </ul>
 
                             <p class="mt-8 text-xs text-gray-500">
-                                &copy; 2023. Innova Infosys. All rights
-                                reserved.
+                                &copy; 2013 - {{ date("Y") }}. Innova Infosys.
+                                All rights reserved.
                             </p>
                         </div>
                     </div>

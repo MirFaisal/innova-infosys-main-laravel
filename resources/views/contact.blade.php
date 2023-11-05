@@ -6,7 +6,7 @@
             <div class="wrapper">
                 <div class="lg:grid lg:grid-cols-12">
                     <div
-                        class="contact-info flex flex-col justify-center items-start w-full px-8 py-8 lg:order-last lg:col-span-5 lg:h-full xl:col-span-6"
+                        class="contact-info flex flex-col justify-center items-start w-full px-8 py-8 lg:order-last lg:col-span-7 lg:h-full xl:col-span-6"
                     >
                         <!-- about -->
                         <h2 class="text-4xl mb-4 font-semibold">Meet us</h2>
@@ -17,8 +17,13 @@
                             quote, or simply learn more about our services. We
                             look forward to collaborating with you.
                         </p>
-                        <div class="flex xs:flex-col md:flex-row">
-                            <div class="flex flex-col space-y-8 pr-2 border-r">
+                        <div
+                            class="block md:flex"
+                            style="word-wrap: break-word"
+                        >
+                            <div
+                                class="flex flex-col pb-3 space-y-8 pr-2 md:pb-0 border-b md:border-b-0 md:border-r"
+                            >
                                 <div class="flex gap-3">
                                     <img
                                         width="28"
@@ -26,7 +31,7 @@
                                         src="https://img.icons8.com/color/48/bangladesh.png"
                                         alt="bangladesh"
                                     />
-                                    <h2>Bangladesh HQ</h2>
+                                    <h2 class="font-bold">Bangladesh Office</h2>
                                 </div>
                                 <div class="flex space-x-2">
                                     <div class="icon">
@@ -38,14 +43,11 @@
                                         />
                                     </div>
                                     <div class="phone-number flex flex-col">
-                                        <a href="tet:+8801571-005859"
-                                            >+8801571-005859</a
-                                        >
                                         <a href="tet:+8801830-360494"
-                                            >+8801830-360494</a
+                                            >+880 1830-360494</a
                                         >
-                                        <a href="tet:+8801964-353056"
-                                            >+8801964-353056</a
+                                        <a href="tet:+8801571-005859"
+                                            >+880 1571-005859</a
                                         >
                                     </div>
                                 </div>
@@ -59,6 +61,10 @@
                                         />
                                     </div>
                                     <div class="Email flex flex-col">
+                                        <a
+                                            href="mailto: pr.innovainfosys@gmail.com"
+                                            >pr.innovainfosys@gmail.com</a
+                                        >
                                         <a href="mailto: info@innovainfosys.com"
                                             >info@innovainfosys.com</a
                                         >
@@ -83,7 +89,9 @@
                                 </div>
                             </div>
 
-                            <div class="flex flex-col space-y-8 pl-2">
+                            <div
+                                class="flex flex-col space-y-8 pl-2 mt-10 md:mt-0"
+                            >
                                 <div class="flex gap-3">
                                     <img
                                         width="28"
@@ -91,7 +99,7 @@
                                         src="https://img.icons8.com/color/48/canada.png"
                                         alt="bangladesh"
                                     />
-                                    <h2>Canada HQ</h2>
+                                    <h2 class="font-bold">Canada HQ</h2>
                                 </div>
                                 <div class="flex space-x-2">
                                     <div class="icon">
@@ -104,7 +112,7 @@
                                     </div>
                                     <div class="phone-number flex flex-col">
                                         <a href="tet:+1613 401 6661"
-                                            >+1613 401 6661</a
+                                            >+1 (613) 401-6661</a
                                         >
                                     </div>
                                 </div>
@@ -137,7 +145,7 @@
                                         <a href="mailto: abc@example.com"
                                             >463 Cope Drive, Stittsville,
                                             <br />
-                                            Ontario Canada K2V 0P1</a
+                                            Ontario, Canada K2V 0P1</a
                                         >
                                     </div>
                                 </div>
@@ -146,7 +154,7 @@
                     </div>
 
                     <main
-                        class="flex items-center justify-center px-8 py-8 border-r sm:px-12 lg:col-span-7 lg:px-16 lg:py-12 xl:col-span-6"
+                        class="flex items-center justify-center px-8 py-8 border-r sm:px-12 lg:col-span-5 lg:px-16 lg:py-12 xl:col-span-6"
                     >
                         <div class="max-w-xl lg:max-w-3xl">
                             <h1

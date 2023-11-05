@@ -302,11 +302,12 @@
                             performance.
                         </p>
                         <div class="w-full pt-5 flex justify-end">
-                            <a
+                            <button
                                 class="btn-main py-2 px-6"
                                 onclick="{Finance_and_Banking.showModal()}"
-                                >Read more</a
                             >
+                                Read more
+                            </button>
                         </div>
                     </div>
                     <div
@@ -589,7 +590,7 @@
                 >
                     <img
                         loading="lazy"
-                        src="{{ asset('clients/Roundel_of_Bangladesh_.png') }}"
+                        src="{{ asset('clients/Roundel_of_Bangladesh.png') }}"
                         alt=""
                     />
                 </div>
